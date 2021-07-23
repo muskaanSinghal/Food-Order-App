@@ -1,0 +1,12 @@
+.summary {
+  background-color: rgba(27, 26, 26, 0.7);
+  color: white;
+  height: 30vh;
+  width: 50vw;
+  border-radius: 30px;
+  padding: 25px;
+  font-family: cursive;
+  position: absolute;
+  top: 65vh;
+  left: 25vw;
+}

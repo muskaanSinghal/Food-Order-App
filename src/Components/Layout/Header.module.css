@@ -1,0 +1,35 @@
+.mainImage .image {
+  height: 70vh;
+  width: 105vw;
+  object-fit: cover;
+  transform: rotateZ(-8deg) translateY(7rem);
+  overflow: hidden;
+  /* z-index: 0; */
+  /* border: 5px solid red; */
+}
+
+.header {
+  padding: 30px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: brown;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.mainImage {
+  /* border: 5px solid red; */
+  z-index: 0;
+  overflow: hidden;
+  height: 80vh;
+  background: linear-gradient(to top left, grey, rgb(212, 147, 147));
+}
+
+html {
+  background-color: rgb(46, 44, 44);
+}

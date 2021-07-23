@@ -1,0 +1,18 @@
+svg .cart {
+  stroke: white;
+  /* fill: none; */
+  stroke-width: 0.5;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+/* svg {
+  background-color: cadetblue;
+} */
+
+svg .wheel {
+  fill: none;
+  stroke: white;
+  /* fill: none; */
+  stroke-width: 0.5;
+}

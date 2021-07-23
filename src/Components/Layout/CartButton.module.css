@@ -1,0 +1,23 @@
+.icon {
+  height: 5vh;
+  width: 2vw;
+  filter: opacity(100%);
+  /* position: relative; */
+}
+
+.cartButton {
+  border-radius: 30px;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  color: white;
+}
+
+.cartButton:hover,
+.cartButton:focus {
+  background-color: rgb(0, 0, 0);
+}

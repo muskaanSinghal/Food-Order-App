@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  margin: 20px;
+}
+
+.emptyCart {
+  height: 50vh;
+  width: 50vw;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(228, 157, 65, 0.6);
+  font-size: 50px;
+  margin: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 10vh;
+}
+
+.btn {
+  background-color: rgb(228, 157, 65);
+  color: white;
+  font-size: 24px;
+  width: 15vw;
+  height: 8vh;
+  border-radius: 30px;
+  color: black;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px grey;
+  margin: 8px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: auto;
+  margin: 50px;
+}
